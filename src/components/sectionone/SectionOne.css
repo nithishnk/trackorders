@@ -14,7 +14,14 @@
 {
   margin:17px;
 }
-.btn-algn
+.btn-alagn
 {
   float: right;
+}
+@media only screen and (min-width: 768px)
+{
+  .btn-algn
+  {
+    float: right;
+  } 
 }

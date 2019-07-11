@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Button,ButtonToolbar} from 'react-bootstrap';
-
 import '../sectionone/SectionOne.css'
 
 
@@ -11,10 +10,10 @@ export default class SectionOne extends Component {
       
       <div className="container mt-5">
       <div className="row">
-      <div className="col-md-6">
+      <div className="col-md-8">
         <h3>Upcoming Trips</h3>
         </div>
-        <div className="col-md-6"> 
+        <div className="col-md-4"> 
         <ButtonToolbar className="btn-algn">
         <Button className="btnstyle" variant="primary">Book New Trip</Button>
         </ButtonToolbar>
