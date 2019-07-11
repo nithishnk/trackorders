@@ -11,7 +11,7 @@ export default class SectionOne extends Component {
       <div className="container mt-5">
       <div className="row">
       <div className="col-md-8">
-        <h3>Upcoming Trips</h3>
+        <h3 className="head-pad">Hey Sally</h3>
         </div>
         <div className="col-md-4"> 
         <ButtonToolbar className="btn-algn">
@@ -20,7 +20,7 @@ export default class SectionOne extends Component {
         </div>
         
         
-        <div className="mrgin mt-5 row">
+        {/*<div className="mrgin mt-5 row">
         <h6 className="checkbox-style">Show:</h6>     
 <div className="checkbox-style">
 
@@ -41,7 +41,7 @@ export default class SectionOne extends Component {
   <h6 className="left-align">Rails</h6>
 </div>
 </div>
-</div>
+    </div>*/}
 </div>
         </div>
      

@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function getSteps() {
-  return ['02 Jul 2019', '03 Jul 2019', '04 Jul 2019'];
+  return ['Checkout', 'Payment Authorization', 'Destination Authorization', 'Procurement','Fulfilment'];
 }
 
 function getStepContent(step) {
@@ -54,9 +54,9 @@ function getStepContent(step) {
     case 1:
       return <div className="">
       <div className="mt-3">
-        <span className="txt-style px-5">10:30  </span>
+        <span className="txt-style">10:30  </span>
         <span><i class="fas fa-long-arrow-alt-right"></i></span>
-        <span className="txt-style px-5">12:30</span>
+        <span className="txt-style">12:30</span>
       </div>
       <div>
         <div className="d-flex mt-3">

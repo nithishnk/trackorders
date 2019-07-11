@@ -14,11 +14,13 @@
     .C-class .card-header
     {
       padding:35px;
-      background-color: #ffffff;
+      background-color: #fafafa;
     }
     .txt-style
     {
       font-size: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
     .ticket
     {
@@ -53,4 +55,11 @@
     .C-class .card
     {
       border-radius: 8px !important;
+    }
+    @media only screen and (max-width: 993px)
+    {
+      .txt-style{
+        display: none;
+        
+      }
     }
