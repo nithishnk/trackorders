@@ -1,0 +1,56 @@
+.accor .accordion
+{
+  box-shadow: 4px 4px 8px #dcdcdc;
+    cursor: pointer;
+}
+.F-T-N
+{
+    float:right;
+}
+.accor .accordion .card
+{
+   border:none;
+}
+    .C-class .card-header
+    {
+      padding:35px;
+      background-color: #ffffff;
+    }
+    .txt-style
+    {
+      font-size: 30px;
+    }
+    .ticket
+    {
+      background-color: white;
+      border: 2px solid white;
+      border-radius: 15px;
+      width: 60%;
+      height: 50%;
+
+    }
+    
+   .body-clr .MuiCollapse-container 
+    {
+      background-color: white;
+      width:60%;
+      border-radius: 15px;
+      box-shadow: 4px 4px 8px #e0e0e0;
+      margin-left: 10px;
+    }
+    .body-clr .MuiPaper-root 
+    {
+      background-color: #f7f6fb;
+    }
+    .C-class .card-header
+    {
+      border-radius: 8px !important;
+    }
+    .C-class .accordion
+    {
+      border-radius: 8px !important;
+    }
+    .C-class .card
+    {
+      border-radius: 8px !important;
+    }
