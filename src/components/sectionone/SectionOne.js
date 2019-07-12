@@ -11,7 +11,7 @@ export default class SectionOne extends Component {
       <div className="container mt-5">
       <div className="row">
       <div className="col-md-8">
-        <h3 className="head-pad">Hey Sally</h3>
+        <h3>Hey Sally</h3>
         </div>
         <div className="col-md-4"> 
         <ButtonToolbar className="btn-algn">

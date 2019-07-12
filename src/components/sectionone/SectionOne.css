@@ -14,10 +14,7 @@
 {
   margin:17px;
 }
-.head-pad
-{
-  padding-left:20px;
-}
+
 @media only screen and (min-width: 768px)
 {
   .btn-algn
@@ -25,14 +22,4 @@
     float: right;
   } 
   
-}
-@media only screen and (max-width: 768px)
-{
-  .head-pad{
-    padding-left:0;
-  }
-  .headdd
-  {
-    padding: 0;
-  }
 }

@@ -7,10 +7,10 @@ export default class SectionTwo extends Component {
     return (
       <div className="container mt-5">
       <div className="row">
-      <div className="col-md-8">
+      <div className="col-md-8 shad">
       <img className="img-wid" src={Img1}></img>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-4 shad">
       <img className="img-wid" src={Img2}></img>
       </div>      
       </div>

@@ -10,43 +10,51 @@ import Typography from '@material-ui/core/Typography';
 import '../sectionthree/SectionThree.css'
 
 const useStyles = makeStyles(theme => ({
-  root: {
-    width: '100%',
-  },
-  button: {
-    marginTop: theme.spacing(1),
-    marginRight: theme.spacing(1),
-  },
-  actionsContainer: {
-    marginBottom: theme.spacing(2),
-  },
-  resetContainer: {
-    padding: theme.spacing(3),
-  },
+root:
+{
+  width: '100%',
+},
+button: 
+{
+  marginTop: theme.spacing(1),
+  marginRight: theme.spacing(1),
+},
+actionsContainer: 
+{
+  marginBottom: theme.spacing(2),
+},
+resetContainer: 
+{
+  padding: theme.spacing(3),
+},
 }));
 
-function getSteps() {
-  return ['Checkout', 'Payment Authorization', 'Destination Authorization', 'Procurement','Fulfilment'];
+function getSteps() 
+{
+  return ['Checkout', 
+          'Payment Authorization', 
+          'Destination Authorization', 
+          'Procurement','Fulfilment'];
 }
 
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return <div className="">
-              <div className="mt-3">
-                <span className="txt-style px-5">10:30  </span>
-                <span><i class="fas fa-long-arrow-alt-right"></i></span>
-                <span className="txt-style px-5">12:30</span>
-              </div>
+      return  <div className="">
+                <div className="mt-3">
+                  <span className="txt-style px-5">10:30  </span>
+                  <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                  <span className="txt-style px-5">12:30</span>
+                </div>
               <div>
-                <div className="d-flex mt-3">
+              <div className="d-flex mt-3">
                 <div className="px-5">
-                <h6>BLR</h6>
-                <small>Bangalore</small>
+                  <h6>BLR</h6>
+                  <small>Bangalore</small>
                 </div>
                 <div className="ml-5 px-5">
-                <h6>JFK</h6>
-                <small>New York</small>
+                  <h6>JFK</h6>
+                  <small>New York</small>
                 </div>
                 </div>
               </div>
