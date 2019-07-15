@@ -1,3 +1,10 @@
+.head-sty
+{
+  font-family: 'Roboto Condensed', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.75rem !important;
+    font-weight: 500;
+}
 .btnstyle{
   border-radius: 22px;
 }

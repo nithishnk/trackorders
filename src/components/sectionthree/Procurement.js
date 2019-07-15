@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Accordion, Card, Dropdown } from 'react-bootstrap';
 import '../sectionthree/SectionThree.css'
-import Stepper from '../sectionthree/Stepper'
+import Stepper from '../sectionthree/StepperProcurement'
 
 export default class SectionThree extends Component {
   state = {

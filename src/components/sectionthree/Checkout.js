@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Accordion, Card, Dropdown } from 'react-bootstrap';
 import '../sectionthree/SectionThree.css'
-import Stepper from '../sectionthree/Stepper'
+import StepperCheckout from '../sectionthree/StepperCheckout'
 
 export default class SectionThree extends Component {
   state = {
@@ -26,7 +26,7 @@ export default class SectionThree extends Component {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
-                    <Stepper/>
+                    <StepperCheckout/>
                      {/* <div className="p-3"><p>02 Jul 2019</p>
                       </div>
                       <div className="ticket ml-auto p-5">

@@ -7,12 +7,12 @@ export default class SectionTwo extends Component {
     return (
       <div className="container mt-5">
       <div className="row">
-      <div className="col-md-8 shad">
-      <a href="buygxt.gxbroker.com" target="_blank">
+      <div className="col-md-8 bgclr shad">
+      <a href="https://buygxt.gxbroker.com/brokerage/1" target="_blank">
       <img className="img-wid" src={Img1}></img>
       </a>
       </div>
-      <div className="col-md-4 shad" target="_blank">
+      <div className="col-md-4 pad-img shad" target="_blank">
       <a href=" www.whatisgx.com">
       <img className="img-wid" src={Img2}></img>
       </a>
