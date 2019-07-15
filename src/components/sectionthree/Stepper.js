@@ -31,10 +31,10 @@ resetContainer:
 
 function getSteps() 
 {
-  return ['Checkout', 
-          'Payment Authorization', 
-          'Destination Authorization', 
-          'Procurement','Fulfilment'];
+  return ['Enter Order', 
+          'Personal Details', 
+          'Payment Details', 
+          'Purchase Complete'];
 }
 
 function getStepContent(step) {
@@ -99,6 +99,26 @@ function getStepContent(step) {
         </div>
       </div>
     </div>;
+    case 3:case 2:
+    return <div className="">
+    <div className="mt-3">
+      <span className="txt-style px-5">10:30  </span>
+      <span><i class="fas fa-long-arrow-alt-right"></i></span>
+      <span className="txt-style px-5">12:30</span>
+    </div>
+    <div>
+      <div className="d-flex mt-3">
+      <div className="px-5">
+      <h6>BLR</h6>
+      <small>Bangalore</small>
+      </div>
+      <div className="ml-5 px-5">
+      <h6>JFK</h6>
+      <small>New York</small>
+      </div>
+      </div>
+    </div>
+  </div>;
     default:
       return 'Unknown step';
   }

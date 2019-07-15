@@ -61,3 +61,23 @@
   display: none;      
   }
 }
+.body-clr .MuiStepIcon-root
+{
+  color: #1975bb;
+}
+.body-clr .MuiStepIcon-active
+{
+  color: #1975bb !important;
+}
+.body-clr .MuiButton-containedPrimary
+{
+  background-color: #1975bb;
+}
+.body-clr .MuiButton-containedPrimary:hover
+{
+  background-color: #1975bb;
+}
+.body-clr .MuiStepIcon-completed
+{
+color: #1975bb !important;
+}
