@@ -27,14 +27,7 @@ export default class SectionThree extends Component {
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
                     <Stepper/>
-                     {/* <div className="p-3"><p>02 Jul 2019</p>
-                      </div>
-                      <div className="ticket ml-auto p-5">
-                      <span className="txt-style">10:30  </span> 
-                      <span><i class="fas fa-long-arrow-alt-right"></i></span>
-                      <span className="txt-style">12:30</span>
-                      <span className="algn">EMIRATES</span>
-   </div>*/}
+                    
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>

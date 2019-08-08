@@ -33,10 +33,9 @@
 .body-clr .MuiCollapse-container 
 {
   background-color: white;
-  width:60%;
   border-radius: 15px;
   box-shadow: 4px 4px 8px #e0e0e0;
-  margin-left: 10px;
+
 }
 .body-clr .MuiPaper-root 
 {
@@ -80,4 +79,56 @@
 .body-clr .MuiStepIcon-completed
 {
 color: #1975bb !important;
+}
+.fafastyle
+{
+  color: green;
+}
+.hidden
+{
+  opacity: 0.3;
+}
+.accor
+{
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom:0;
+}
+.C-class
+{
+  padding: 0;
+}
+.radioBox {
+  padding: .4rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.radioCurrency {
+  display: inline-flex;
+  padding-left: 13px;
+}
+
+.radioCurrency .selection label {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 0.5em;
+  cursor: pointer;
+  border: 2px solid #dcdcdc;
+}
+
+.radioCurrency .selection label:hover {
+  background-color: #8ad7ec2c;
+}
+
+.radioCurrency .selection input[type=radio] {
+  display: none;
+}
+
+.radioCurrency .selection input[type=radio]:checked~label {
+  border: 2px solid #fdb913;
+}
+.dcAmount{
+  color: #999999;
+  font-size: .8rem;
 }

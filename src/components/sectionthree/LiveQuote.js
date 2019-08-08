@@ -20,9 +20,9 @@ export default class SectionThree extends Component {
            <div className="col-md-12 pt-3 accor" >
               <div>
                 <Card>
-                  <div style={{padding:"35px" , boxShadow: "4px 4px 8px #dcdcdc"}}> <b>Destination Authorization</b>
-                  
-     <span className="F-T-N hidden">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span> 
+                  <div style={{padding:"35px" , boxShadow: "4px 4px 8px #dcdcdc"}}> <b>Live Quote</b>
+                  {this.state.frist ? 
+     <span className="F-T-N hidden">Pending...</span> :  <span className="F-T-N ">Completed</span>}
                   </div>
                 </Card>
              </div>
