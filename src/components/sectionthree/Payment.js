@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import { Accordion, Card, Dropdown } from 'react-bootstrap';
 import '../sectionthree/SectionThree.css'
 import '../sectionthree/evolution.css'
-import Stepper from '../sectionthree/StepperPayment'
-
-
 export default class SectionThree extends Component {
   state = {
     frist: true,
@@ -27,26 +24,24 @@ export default class SectionThree extends Component {
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
-  <div className="container" >
-  <div style={{position:"relative"}}>
-    <div className="row">
-    <span className="crcl"> 1</span>
-    <span className="ml-3">Payment Received</span>
-    {this.state.frist ? null:<i class="fa fa-check-circle F-T-N fafastyle payrec"></i> }
-    </div>
-    <div className="timeline"></div>
-    </div>
-    <div style={{position:"relative", paddingTop :"57px"}}>
-    <div className="row">
-    <span className="crcl"> 2</span>
-    <span className="ml-3">Method</span>
-    <div className="radioCurrency row" style={{marginLeft:"auto"}}>
-      
-  <div className="form-check selection p-2">
+                      <div className="container" >
+                      <div style={{position:"relative"}}>
+                        <div className="row">
+                        <span className="crcl"> 1</span>
+                        <span className="ml-3">Payment Received</span>
+                        {this.state.frist ? null:<i class="fa fa-check-circle F-T-N fafastyle payrec"></i> }
+                        </div>
+                        <div className="timeline"></div>
+                        </div>
+                        <div style={{position:"relative", paddingTop :"57px"}}>
+                        <div className="row">
+                        <span className="crcl"> 2</span>
+                        <span className="ml-3">Method</span>
+                        <div className="radioCurrency row" style={{marginLeft:"auto"}}>
+                        <div className="form-check selection p-2">
                         <input name="registrationFor" value="TD Canada Trust" type="radio" required/>
                         <label htmlFor="tdcanadatrust">
                             <div className="radioBox">
-                                
                                 <p className="m-0">Etransfer</p>
                             </div>
                         </label>
@@ -55,8 +50,7 @@ export default class SectionThree extends Component {
                         <input name="registrationFor" value="TD Canada Trust" type="radio" required/>
                         <label htmlFor="tdcanadatrust">
                             <div className="radioBox">
-                                
-                                <p className="m-0">Wire Transfer</p>
+                            <p className="m-0">Wire Transfer</p>
                             </div>
                         </label>
                 </div>
@@ -72,12 +66,10 @@ export default class SectionThree extends Component {
     </div>
     </div>
     </div>
-    
-    
-                    </Card.Body>
+                  </Card.Body>
                   </Accordion.Collapse>
                 </Card>
-             </Accordion>
+            </Accordion>
             </div>
           </div>
         </div>

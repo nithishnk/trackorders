@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Accordion, Card, Dropdown } from 'react-bootstrap';
+import { Card, } from 'react-bootstrap';
 import '../sectionthree/SectionThree.css'
 
 export default class SectionThree extends Component {
@@ -17,14 +17,14 @@ export default class SectionThree extends Component {
     return (
       <> <div class="container C-class">
           <div className="row mx-0">
-           <div className="col-md-12 pt-3 accor" >
+          <div className="col-md-12 pt-3 accor" >
               <div>
                 <Card>
                   <div style={{padding:"35px" , boxShadow: "4px 4px 8px #dcdcdc"}}> <b>Destination Authorization</b>
                   <span className="F-T-N hidden">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span> 
                   </div>
                 </Card>
-             </div>
+            </div>
             </div>
           </div>
         </div>
