@@ -11,37 +11,14 @@ export default class SectionOne extends Component {
       <div className="container mt-5">
       <div className="row">
       <div className="col-md-8">
-        <span className="head-sty">Hey Sally</span>
+        <span className="head-sty">Hi Sally, </span>
         </div>
         <div className="col-md-4"> 
         <ButtonToolbar className="btn-algn">
-        <Button className="btnstyle" variant="primary">Book New Trip</Button>
+        <Button className="btnstyle" variant="primary">Place New Order</Button>
         </ButtonToolbar>
         </div>
-        
-        
-        {/*<div className="mrgin mt-5 row">
-        <h6 className="checkbox-style">Show:</h6>     
-<div className="checkbox-style">
-
-<div class="ui checkbox">
-  <input type="checkbox" class="hidden" readonly="" tabindex="0" />
-  <h6 className="left-align">Flights</h6>
-</div>
-</div>
-<div className="checkbox-style">
-<div class="ui checkbox">
-  <input type="checkbox" class="hidden" readonly="" tabindex="0" />
-  <h6 className="left-align">Hotels</h6>
-</div>
-</div>
-<div className="checkbox-style">
-<div class="ui checkbox">
-  <input type="checkbox" class="hidden" readonly="" tabindex="0" />
-  <h6 className="left-align">Rails</h6>
-</div>
-</div>
-    </div>*/}
+        <p className="ml-3">Here is the GXReceipt for your transaction</p>
 </div>
         </div>
      
