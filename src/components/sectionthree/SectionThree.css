@@ -77,6 +77,10 @@ color: #1975bb !important;
 {
   color: green;
 }
+.fafastyle1
+{
+  color:red !important;
+}
 .hidden
 {
   opacity: 0.3;
@@ -148,4 +152,9 @@ color: #1975bb !important;
 }
 .payrec{
   margin-left: auto;
+}
+.poslink
+{
+  position: absolute;
+  right: 7%;
 }
