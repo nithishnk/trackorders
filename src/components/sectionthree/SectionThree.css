@@ -100,6 +100,7 @@ color: #1975bb !important;
 .radioCurrency {
   display: inline-flex;
   padding-left: 13px;
+
 }
 
 .radioCurrency .selection label {
@@ -124,4 +125,27 @@ color: #1975bb !important;
 .dcAmount{
   color: #999999;
   font-size: .8rem;
+}
+.timeline::after {
+  content: '';
+  
+  width: 1px;
+  background-color: #000000;
+  position:absolute;
+  height:100%;
+  }
+.crcl
+{color: white;
+  text-align: center;
+  font-size: 13px;
+  background-color: #186AB4;
+  border-radius: 50%;
+  width:1.3rem;
+  height: 1.3rem;
+}
+.lef{
+  margin-left: auto;
+}
+.payrec{
+  margin-left: auto;
 }

@@ -44,14 +44,7 @@ function getStepContent(step) {
             </div>;
     case 1:
       return <div className="radioCurrency row">
-      {/*<div className="row">
-      <div className="m-5">
-      <button type="button" class="btn btn-light">Etransfer</button>
-      </div>
-      <div className="m-5">
-      <button type="button" class="btn btn-light">Wire Transfer</button>
-      </div>
-  </div>*/}
+      
   <div className="form-check selection p-2">
                         <input name="registrationFor" value="TD Canada Trust" type="radio" required/>
                         <label htmlFor="tdcanadatrust">

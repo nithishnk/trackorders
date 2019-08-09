@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Accordion, Card} from 'react-bootstrap';
 import '../sectionthree/SectionThree.css'
 import Stepper from '../sectionthree/StepperProcurement'
+import '../sectionthree/evolution.css'
 
 export default class SectionThree extends Component {
   state = {
@@ -24,9 +25,27 @@ export default class SectionThree extends Component {
                   <i class="fas fa-chevron-down F-T-N"></i>
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
-                    <Card.Body>
-                    <Stepper/>
-                    </Card.Body>
+                  <Card.Body>
+                  <div className="container" >
+                  <div style={{position:"relative"}}>
+                    <div className="row">
+                    <span className="crcl"> 1</span>
+                    <span className="ml-3">Procuring</span>
+                    </div>
+                    <div className="timeline"></div>
+                    </div>
+                    <div style={{position:"relative", paddingTop :"57px"}}>
+                    <div className="row">
+                    <span className="crcl"> 2</span>
+                    <span className="ml-3">Procured</span>
+                    
+                    </div>
+                    
+                    </div>
+                    </div>
+                    
+                    
+                                    </Card.Body>
                   </Accordion.Collapse>
                 </Card>
              </Accordion>
