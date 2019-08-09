@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Accordion, Card, Dropdown } from 'react-bootstrap';
+import {Card,} from 'react-bootstrap';
 import '../sectionthree/SectionThree.css'
 
 export default class SectionThree extends Component {
@@ -21,8 +21,7 @@ export default class SectionThree extends Component {
               <div>
                 <Card>
                   <div style={{padding:"35px" , boxShadow: "4px 4px 8px #dcdcdc"}}> <b>Checkout</b>
-                  {this.state.frist ? 
-     <i class="fa fa-check-circle F-T-N fafastyle"></i> : null}
+                  {this.state.frist ? <i class="fa fa-check-circle F-T-N fafastyle"></i> : null}
                   </div>
                 </Card>
              </div>

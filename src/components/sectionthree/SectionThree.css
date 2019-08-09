@@ -22,14 +22,7 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.ticket
-{
-  background-color: white;
-  border: 2px solid white;
-  border-radius: 15px;
-  width: 60%;
-  height: 50%;
-}
+
 .body-clr .MuiCollapse-container 
 {
   background-color: white;

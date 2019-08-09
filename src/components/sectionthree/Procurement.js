@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Accordion, Card, Dropdown } from 'react-bootstrap';
+import { Accordion, Card} from 'react-bootstrap';
 import '../sectionthree/SectionThree.css'
 import Stepper from '../sectionthree/StepperProcurement'
 
@@ -21,13 +21,11 @@ export default class SectionThree extends Component {
               <Accordion >
                 <Card>
                   <Accordion.Toggle onClick={this.frist} as={Card.Header} eventKey={this.state.frist ? "1" : "0"}> <b>Procurement</b>
-          {/* <span className="p-5">London, England</span> San Fransisco, USA */}
-      <i class="fas fa-chevron-down F-T-N"></i>
+                  <i class="fas fa-chevron-down F-T-N"></i>
                   </Accordion.Toggle>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
                     <Stepper/>
-                    
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>

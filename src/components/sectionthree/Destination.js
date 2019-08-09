@@ -21,8 +21,7 @@ export default class SectionThree extends Component {
               <div>
                 <Card>
                   <div style={{padding:"35px" , boxShadow: "4px 4px 8px #dcdcdc"}}> <b>Destination Authorization</b>
-                  
-     <span className="F-T-N hidden">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span> 
+                  <span className="F-T-N hidden">1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX</span> 
                   </div>
                 </Card>
              </div>
